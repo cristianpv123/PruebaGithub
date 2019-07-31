@@ -1,11 +1,18 @@
 git init
 git status
-git log, git logline    (pulsar q en la consola para salir del scroll)
+git log, git logline, git superlog    (pulsar q en la consola para salir del scroll)
+
+*--*
+para crear alias "superlog"
+git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+*--*
+
 git branch
+git branch -d "nombre de la rama"  //para borrar rama
 
 git add -A
 git commit -m "nombre del commit"
-git commit -am "nombre del commit"
+git commit -a -m "nombre del commit"
 
 git checkout master
 git checkout (nombre de la rama)
@@ -13,3 +20,9 @@ git checkout -b "nombre de la nueva rama"
 
 git push origin master  -> Para enviar esos cambios a repositorio remoto Reemplaza master por la rama a la cual desees enviar tus cambios. 
 git merge (nombre de la rama)
+
+*--*
+en la consola luego del merge si pide colocar nombre al coomit se pulsa la tecla 'o' para escribir
+luego se pulsa ESC
+para salvar y salir se pulsa ':x'
+*--*
