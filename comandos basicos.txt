@@ -1,0 +1,15 @@
+git init
+git status
+git log, git logline    (pulsar q en la consola para salir del scroll)
+git branch
+
+git add -A
+git commit -m "nombre del commit"
+git commit -am "nombre del commit"
+
+git checkout master
+git checkout (nombre de la rama)
+git checkout -b "nombre de la nueva rama"
+
+git push origin master  -> Para enviar esos cambios a repositorio remoto Reemplaza master por la rama a la cual desees enviar tus cambios. 
+git merge (nombre de la rama)
