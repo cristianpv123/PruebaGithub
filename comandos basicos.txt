@@ -13,7 +13,7 @@ git branch -d "nombre de la rama"  //para borrar rama
 
 git add -A
 git commit -m "nombre del commit"
-git commit -a -m "nombre del commit"
+git commit -am "nombre del commit"
 
 git checkout master
 git checkout (nombre de la rama)
@@ -38,3 +38,14 @@ cd .ssh
 editamos el archivo
 cat id_rsa.pub
 y esta es la llave publica que se colocara en Github
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFYyZBcLfaUaMSMcqy8xUr1VmlwvIZP94wEyKhtpvT
+pFVLCCrpVcU9ITPWaB8zesLEgL4YF8Ul+pVi9IDmLp26XyZqZ4Lm620sMfZHQpKZjOPISIq6U0+k1R/z
+CEz+PJnAFc27ZrrWGzyoJQSXDX+RSWw4uGdpjkkI9VnTiBICp4f6aC8zpJHcpEONCbU7ZZNU7I4kl6ma
+2A5tWnSJ9xvx2MLzWkHPYPlfi4WFy5Wxu0PyPhqBNZo6MylJ4TXzZtYfnvKUkOR6fAVrlsuJcVbekttf
+ix7tWcpIDSAqPf+dYjK91eeHUfPuzSkD0I/6gNcwwX+nQn0y9SM66PWo8NzzKbfgZkrlnRfRzHl0VOhP
+0DCbc7z4fioWh8caS5hS5cFOH8KSM+E5TpW5Ho8AKr3TIqQR/TETFc+/SkQFfNk7LpFkEUuE8jki0LEY
+puV5t7bowdrzHr+AvSqjvKhhKLZeRJWkiYY3+Dpgt24pG5OYGQqZ0EFUli2+XysnayPkYALwNa9eX8rH
+g5C/gAW9vitT8y4ucsOQ9iE5bJnmVs9RKuAbYVRFjU5wp6o137knOqR6t8ZpxwW1rRZSlZzNTTZflHOk
+kFKLm0s4D1pOiJgDdsaM3E/8eRShWgwwUeY+IEFwRaFYdPNIwGyMtEbhLsd6z/CKamCmJlqfrrFkCDcR
+nQ== cristianpv123@gmail.com
