@@ -1,4 +1,5 @@
 git init
+rm -rf .git      //para reiniciar el proyecto borrar todo y reiniciar todo
 git status
 git log, git logline, git superlog    (pulsar q en la consola para salir del scroll)
 
@@ -26,3 +27,14 @@ en la consola luego del merge si pide colocar nombre al coomit se pulsa la tecla
 luego se pulsa ESC
 para salvar y salir se pulsa ':x'
 *--*
+
+//Crear llave SSH //
+nos ubicamos en desktop
+ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
+luego de crearla nos paramos en el user (en consola) y ejecutamos
+ls -la    //ubicamos carpeta .ssh
+abrimos
+cd .ssh
+editamos el archivo
+cat id_rsa.pub
+y esta es la llave publica que se colocara en Github
